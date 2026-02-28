@@ -1,0 +1,75 @@
+CHECK ALL RELEVANT DOCUMENTS
+CHECK IF THE WEBSITE XPATHS HAVE CHANGED
+
+WHEN TESTING make sure SaveState is not set to save or live
+
+create new year entry on site
+
+Look for ANNUAL UPDATE tag in code
+
+change modelYear and lastModelYear variables in mfunctions.py
+change ModelYear path in mFunctions.bikePD
+
+update bikeList.py
+    look over the dealer book and update lists and dicts
+    add all bikes to bikeList
+    add new bikes to bikeListNew
+    add carry forward bikes to bikeListCopy
+    update all dicts?
+        only used in init
+
+segregate new bikes from carry forwards
+
+annual update then
+run init.py
+    for new bikes
+
+disable retour
+
+annual update then
+run dupe.py
+    for duplicate bikes
+    followed by SlugT
+        NOW
+            run delsap.py to delete the sap immediately following duplication
+            remove any information that isn't necessary
+            update related
+            remove reviews
+            update SEO
+
+            ** Eventually prices must be updated
+
+    Check for extra duplications
+
+
+
+FOR NEW BIKES
+
+update geo.py
+update geocheck.py
+update geoupdate.py
+    make sure order of spreadsheet has not changed since last year
+        otherwise change orderlist
+    paths to spreadsheet
+    reformat etc
+run geo.py
+
+update spec.py
+update speccheck.py
+update geoupdate.py
+    paths to spreadsheet
+    reformat function calls to use correct page
+run spec.py
+
+FOR DUPLICATES
+
+run geocheck.py
+run geoupdate.py
+
+run speccheck.py
+run specupdate.py
+
+most of this should be manually done at this point
+refer to bikemap.txt in Marin_Master
+
+--update for areas of programatic use as another reference for the purpose of each script

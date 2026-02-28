@@ -1,0 +1,65 @@
+Bike
+    General
+        Title COMPLETE
+        Name COMPLETE
+        Price - US, WAITING
+        Grid Image (1000x540)    WAITING
+        Bike Hero (2920x) xMultiple  WAITING
+            Hex code colors  WAITING
+            Color Name   WAITING
+            Sap Code     WAITING
+        Bike Description TODO
+        Suspension Text Field TODO
+        Size Range Radio TODO in GEO
+        Bike Gallery Selector WAITING
+        Shopify Button Code     ?
+        Link to Buy Online      ?
+    Categories
+        Model Family    MOSTLY COMPLETE - Stinson Electric
+        Model Year      COMPLETE
+        Bike Types      COMPLETE
+        Bike Uses       TODO
+        Frame Types     TODO
+        Frame Material      TODO
+        Wheel Sizes     TODO
+        Bike Status     N/A
+    Specifications
+        Spec
+    Geo
+        Geo Image   TODO
+        Geo Chart   TODO
+    Air Charts                  Translations only apply to Germany
+        Description(This could be made into a global)       TODO
+        Air Charts Table Headline                           TODO
+        Air Charts Table                                    TODO
+        Optional Air Charts Field                           TODO
+            used for switching PSI to COIL
+    Related
+        Select 3 Related Bikes      SOMEONE ELSE
+
+Bike Family         WAITING ON IMAGES This will require set up of linked pages on the header, for Stinson Electric, significant imagery
+    General
+        Title
+        Name
+        Icon (More than 100x100)
+        Header Content
+        Header Images(1680x950)
+        Intro Content
+        Model Family Bike Use
+    Technology(Repeating Modules)
+        Image(970x770)
+            Image Description
+            Headline
+            Content
+            Internal Link(Optional)
+    Size Guide (Repeating Modules)
+        Size Abbreviation
+        Size Full Text
+        Height - Low Value
+        Height - High Value
+
+Bike Gallery
+    Title
+    Gallery(Repeating Module)
+    Image(1456x752)
+    Description (Alt-Text)

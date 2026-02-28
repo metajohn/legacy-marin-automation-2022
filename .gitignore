@@ -1,0 +1,5 @@
+runtime2
+runtime_sync
+geckodriver.log
+
+__pycache__/
